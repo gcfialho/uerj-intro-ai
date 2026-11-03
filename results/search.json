@@ -1,0 +1,387 @@
+{
+  "tie_break": "fifo",
+  "heuristic": {
+    "admissible": true,
+    "consistent": true,
+    "h": {
+      "mail": 26,
+      "ts": 23,
+      "o103": 21,
+      "o109": 24,
+      "o111": 27,
+      "o119": 11,
+      "o123": 4,
+      "o125": 6,
+      "r123": 0,
+      "b1": 13,
+      "b2": 15,
+      "b3": 17,
+      "b4": 18,
+      "c1": 6,
+      "c2": 10,
+      "c3": 12,
+      "storage": 12
+    },
+    "h_star": {
+      "b1": 45.0,
+      "b2": 39.0,
+      "b3": 43.0,
+      "b4": 36.0,
+      "c1": null,
+      "c2": null,
+      "c3": null,
+      "mail": null,
+      "o103": 41.0,
+      "o109": 29.0,
+      "o111": null,
+      "o119": 13.0,
+      "o123": 4.0,
+      "o125": null,
+      "r123": 0.0,
+      "storage": null,
+      "ts": null
+    }
+  },
+  "results": [
+    {
+      "strategy": "dfs",
+      "pruning": "cycle",
+      "cost": 53.0,
+      "expanded": 16,
+      "path": [
+        "o103",
+        "b3",
+        "b1",
+        "b2",
+        "b4",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "ts",
+        "mail",
+        "b3",
+        "b1",
+        "c2",
+        "c3",
+        "c1",
+        "c3",
+        "b2",
+        "b4",
+        "o109",
+        "o119",
+        "o123",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "bfs",
+      "pruning": "cycle",
+      "cost": 41.0,
+      "expanded": 21,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "ts",
+        "b3",
+        "o109",
+        "mail",
+        "b1",
+        "b4",
+        "o119",
+        "o111",
+        "c2",
+        "b2",
+        "o109",
+        "o123",
+        "storage",
+        "c3",
+        "c1",
+        "b4",
+        "o119",
+        "o111",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "ucs",
+      "pruning": "cycle",
+      "cost": 41.0,
+      "expanded": 26,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "ts",
+        "b1",
+        "b4",
+        "c2",
+        "o109",
+        "mail",
+        "b2",
+        "c1",
+        "o111",
+        "c3",
+        "b4",
+        "o109",
+        "o111",
+        "c3",
+        "o109",
+        "o119",
+        "o111",
+        "o119",
+        "storage",
+        "o123",
+        "o119",
+        "storage",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "greedy",
+      "pruning": "cycle",
+      "cost": 41.0,
+      "expanded": 15,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "b1",
+        "c2",
+        "c1",
+        "c3",
+        "c3",
+        "b2",
+        "b4",
+        "b4",
+        "ts",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "astar",
+      "pruning": "cycle",
+      "cost": 41.0,
+      "expanded": 16,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "b1",
+        "c2",
+        "c1",
+        "b4",
+        "b2",
+        "c3",
+        "ts",
+        "c3",
+        "b4",
+        "o109",
+        "o119",
+        "mail",
+        "o123",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "dfs",
+      "pruning": "mpp",
+      "cost": 53.0,
+      "expanded": 15,
+      "path": [
+        "o103",
+        "b3",
+        "b1",
+        "b2",
+        "b4",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "ts",
+        "mail",
+        "b3",
+        "b1",
+        "c2",
+        "c3",
+        "c1",
+        "b2",
+        "b4",
+        "o109",
+        "o119",
+        "o123",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "bfs",
+      "pruning": "mpp",
+      "cost": 41.0,
+      "expanded": 17,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "ts",
+        "b3",
+        "o109",
+        "mail",
+        "b1",
+        "b4",
+        "o119",
+        "o111",
+        "c2",
+        "b2",
+        "o123",
+        "storage",
+        "c3",
+        "c1",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "ucs",
+      "pruning": "mpp",
+      "cost": 41.0,
+      "expanded": 17,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "ts",
+        "b1",
+        "b4",
+        "c2",
+        "o109",
+        "mail",
+        "b2",
+        "c1",
+        "o111",
+        "c3",
+        "o119",
+        "storage",
+        "o123",
+        "o125",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "greedy",
+      "pruning": "mpp",
+      "cost": 41.0,
+      "expanded": 13,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "b1",
+        "c2",
+        "c1",
+        "c3",
+        "b2",
+        "b4",
+        "ts",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ]
+    },
+    {
+      "strategy": "astar",
+      "pruning": "mpp",
+      "cost": 41.0,
+      "expanded": 14,
+      "path": [
+        "o103",
+        "o109",
+        "o119",
+        "o123",
+        "r123"
+      ],
+      "expansion_order": [
+        "o103",
+        "b3",
+        "b1",
+        "c2",
+        "c1",
+        "b4",
+        "b2",
+        "c3",
+        "ts",
+        "o109",
+        "o119",
+        "mail",
+        "o123",
+        "r123"
+      ]
+    }
+  ],
+  "zero_heuristic": [
+    {
+      "strategy": "greedy",
+      "cost": 41.0,
+      "expanded": 21
+    },
+    {
+      "strategy": "astar",
+      "cost": 41.0,
+      "expanded": 26
+    }
+  ]
+}

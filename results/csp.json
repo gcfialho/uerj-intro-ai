@@ -1,0 +1,83 @@
+{
+  "australia": [
+    {
+      "config": "plain",
+      "solutions": 18,
+      "assignments": 51,
+      "backtracks": 0,
+      "checks": 129
+    },
+    {
+      "config": "mrv",
+      "solutions": 18,
+      "assignments": 51,
+      "backtracks": 0,
+      "checks": 129
+    },
+    {
+      "config": "fc",
+      "solutions": 18,
+      "assignments": 51,
+      "backtracks": 0,
+      "checks": 174
+    },
+    {
+      "config": "mrv+fc",
+      "solutions": 18,
+      "assignments": 51,
+      "backtracks": 0,
+      "checks": 174
+    }
+  ],
+  "australia_first_solution": {
+    "WA": "red",
+    "NT": "green",
+    "SA": "blue",
+    "Q": "red",
+    "NSW": "green",
+    "V": "red",
+    "T": "red"
+  },
+  "australia_two_colours_solutions": 0,
+  "random_benchmark": {
+    "n": 40,
+    "mean_degree": 4.0,
+    "colours": 3,
+    "instances": 20,
+    "budget": 200000,
+    "rows": [
+      {
+        "config": "plain",
+        "decided": 7,
+        "satisfiable": 7,
+        "unsatisfiable": 0,
+        "median_assignments": 200000.0,
+        "max_assignments": 200000
+      },
+      {
+        "config": "mrv",
+        "decided": 20,
+        "satisfiable": 13,
+        "unsatisfiable": 7,
+        "median_assignments": 91.5,
+        "max_assignments": 6717
+      },
+      {
+        "config": "fc",
+        "decided": 16,
+        "satisfiable": 12,
+        "unsatisfiable": 4,
+        "median_assignments": 14478.5,
+        "max_assignments": 200000
+      },
+      {
+        "config": "mrv+fc",
+        "decided": 20,
+        "satisfiable": 13,
+        "unsatisfiable": 7,
+        "median_assignments": 91.5,
+        "max_assignments": 6717
+      }
+    ]
+  }
+}
